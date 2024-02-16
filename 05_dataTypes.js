@@ -32,4 +32,26 @@ function say(a)
 
 let a = null;
 
-console.log(typeof (say));
+// console.log(typeof (say));
+
+
+/**********************************  MEMORIZATION ***************************************** */
+
+/* Stack {Primitive}  heap {non-primitive}*/
+
+let user1= "Ashish";
+let user2 = user1;    // stack memory gives you copy of variable that means what you change in  copy it not effect main variable.
+user2 = "Dinesh"
+// console.log(user2);
+// console.log(user1);
+
+
+
+let Class1 = {
+    email:"Ashish@gmail.com",
+    upi : "sbi@yolo"
+}                     //heap memory gives you refrence of variable that means when you change in any variable the refrence should be change.
+let Class2 =  Class1;
+Class2.email="Ramesh@gmail.com"
+console.log(Class2);
+console.log(Class1);
