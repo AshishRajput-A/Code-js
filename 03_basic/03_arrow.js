@@ -37,7 +37,7 @@ const fun = () =>
 {
 
      let name = "ashish";
-     console.log(this);
+    //  console.log(this);
 
 }
 
@@ -54,6 +54,6 @@ const fun = () =>
 // console.log(addTwo(15,5));
 
 
-const obj =  () => ({name:"ashish" , age:20})
+const obj =  () => ({name:"ashish" , age:20 , price:799})
 
 console.log(obj());
