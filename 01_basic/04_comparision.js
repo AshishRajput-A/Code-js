@@ -9,6 +9,7 @@
 
 // console.log(null > 0); //false
 // console.log(null < 0); //false      // avoid this kind of conversion
+// console.log(null == 0); //false
 // console.log(null >= 0); //true
 // console.log(null <= 0); //true
 
