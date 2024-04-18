@@ -25,5 +25,12 @@ const myobj = [
 
 myobj.forEach((item , key) => {
     
-    console.log(`Language .: ${item.language} => FileName .: ${item.filename}` );
+    // console.log(`Language .: ${item.language} => FileName .: ${item.filename}` );
 });
+
+const a = [1,2,3,4,5];
+
+
+a.forEach((e) =>{ console.log(e *2);})
+ 
+
