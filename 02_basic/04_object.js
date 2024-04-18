@@ -24,7 +24,7 @@ const user = {
 
 
 
-// mearg  to object in to other object 
+// mearg  two object in to other object 
 
 const  obj1 = {1:"a" , 2:"b" , 3:"c"};
 const  obj2 = {4:"d" , 5:"e",6:"f"};
