@@ -21,7 +21,8 @@ const user1 = {
 
 
 // console.log(user1["full name"]);
-// console.log(  user1[mySym]);
+console.log(  user1[mySym]);
+console.log( typeof mySym );
 
 user1.email ="ashish@microsoft.com";
 
@@ -40,8 +41,12 @@ const obj2 = {
  
 obj2.greeting = function(){console.log(`Hello Dear ${this.name} welcome to are site 😎😎😎😎`); }
 
-obj2.greeting2 = function(){} 
+
+
+
 
 // console.log(obj2);
-console.log(obj2.greeting());
+// console.log(obj2.greeting());
+
+
 
