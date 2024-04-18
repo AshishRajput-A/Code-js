@@ -7,22 +7,32 @@ console.log("hello ashish");
 
 // function addTwoNum (a, b) {
 
-//     return console.log(`Sum.: ${a} + ${b} = ${a+b}`);
+//     if(typeof a === 'number'  && typeof b === 'number')
+//     {
+//         console.log(`Sum.: ${a} + ${b} = ${a+b}`);
+
+//     }
+//     else
+//     {
+//         console.log('Both Argument Must Be Number.');
+//     }
 // }
 
-function addTwoNum (a, b) {
+// addTwoNum(5,10);
 
-    
+
+function  addnum (a,b) {
+
     // let sum =  a+b;
     // return sum;
 
-return a+b;
-
+    return a+b;
 }
 
- const result =  addTwoNum(5,10);
 
-// console.log("result.:" , result);
+
+ const result =   addnum(9,91);
+//   console.log("result.:" , result);
 
 
 
@@ -43,29 +53,34 @@ function  loginUserMessage(username = "sam") {
 
 
 const user = {
-
     username : "Ashish",
     price : 299
-    }
+    }     
 
-    function  handleObject(anyobj) {
+    function  handleObject(anyobj) {                     // object in function
 
         console.log(`username is ${anyobj.username} and price is  ${anyobj.price}.`);
     }
-
-
     // handleObject(user)
     // handleObject({username:"Dinesh" , price:599
     // })
 
 
-    const myarr =  [200 ,300 ,400,500];
+function userCartPrice ( ...num) {
 
-    function returnArr (getarr){
+    return num;                      // array in function 
+}       
 
-        return getarr[2];
-    }
+console.log(userCartPrice(100 ,200 ,300,400 , 5000));
 
-    // console.log(returnArr(myarr));
+const  myarr = [200,400,600,800];
 
-    // console.log(returnArr([100,200,300,400,500]));
+function  returnSecondValue (arr) {
+
+    return arr[2]
+}
+
+
+console.log(returnSecondValue(myarr));
+console.log(returnSecondValue(["ashish" , "dinesh" , "lalit" , "rakesh"]));
+
