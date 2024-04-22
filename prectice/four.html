@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four</title>
+</head>
+<body style="background-color: black; color: white;">
+
+    <ul class="language">
+        <li>Javascript</li>
+        
+    </ul>
+    
+</body>
+
+<script>
+
+// function addLang (langName) {
+
+//   const li =   document.createElement("li");
+//   li.innerHTML = `${langName}`;
+
+//    document.querySelector(".language").appendChild(li);
+
+
+// }
+
+// addLang("python")
+// addLang("Java")
+
+
+function addOptiLang (langName) {
+
+     const li = document.createElement("li");
+     li.appendChild(document.createTextNode(langName));
+     document.querySelector(".language").appendChild(li);
+
+}
+
+
+addOptiLang("c++");
+addOptiLang("Java");
+addOptiLang("Typescript");
+
+
+//Edit
+
+
+    // const secondLang =  document.querySelector("li:nth-child(2)");
+    // const newli =  document.createElement("li");
+    //  newli.textContent = "Ashish";
+    //  secondLang.replaceWith(newli);
+
+ //edit
+ 
+ const firstLang = document.querySelector("li:last-child");
+//  console.log("first" , firstLang);
+firstLang.outerHTML = '<li>Lode </li>';
+
+
+//remove
+
+const lastLang = document.querySelector("li:last-child");
+lastLang.remove()
+     
+
+
+
+</script>
+
+</html>
