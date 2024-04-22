@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create-Element</title>
+</head>
+<body style="background-color: black;">
+
+
+    
+</body>
+
+<script>
+
+function  ElementCreate(eleName , Id , Name , text , color , bgc) 
+{
+
+    const ele = document.createElement(eleName);
+
+    ele.className = name;
+    ele.id = Id;
+    ele.style.color = color
+    ele.style.backgroundColor = bgc;
+    
+    const addText =  document.createTextNode(text);
+
+     ele.appendChild(addText);
+     document.body.appendChild(ele);
+
+}
+
+ElementCreate( "h1" , "heading1" , "data" , "Ashish is nice boy 😎😎😎😎.", "pink" , "red")
+
+ElementCreate( "h2" , "heading2" , "data" , "I'm good web developer 😎😎." , "green" , "blue")
+</script>
+
+</html>
