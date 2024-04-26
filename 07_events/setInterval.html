@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetInterval</title>
+</head>
+<body>
+
+   <h1>chai aur Javasript</h1>
+   <h2 id="clock" style="color: crimson;"></h2>
+
+   <button id="stop" >Stop</button>
+   <button id="start">Start</button>
+    
+</body>
+
+<script>
+
+const start =  document.querySelector("#start");
+const stop =  document.querySelector("#stop")
+const clock = document.querySelector("#clock");
+
+ let interval;
+
+// start.addEventListener( 'click' , ()=>{
+
+    
+//     interval =  setInterval(() => {
+//         console.log("Ashish" ,Date.now());
+//     }, 1000);
+
+// }  )
+
+// stop.addEventListener('click' , ()=>{
+//     clearInterval(interval);
+//     console.log(" interval stopped");
+// })
+
+
+start.addEventListener( 'click' , ()=>{
+
+        interval =  setInterval(() => {
+         
+            const date =  new Date();
+            console.log(date.toLocaleTimeString());
+
+            clock.textContent = date
+            
+    }, 1000);
+ }  )
+
+ stop.addEventListener('click' , ()=>{
+     clearInterval(interval);
+     console.log(" interval stopped");
+})
+    
+
+
+</script>
+
+</html>
