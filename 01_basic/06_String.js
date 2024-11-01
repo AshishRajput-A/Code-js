@@ -6,7 +6,7 @@ const str1 = new String("Ashish");
 
 const name ="AshishRajput";
 const repoCount = 50;
-// console.log(`${name}${repoCount} value`);
+// console.log(`${name}${repoCount} value`);  // template literals 
 
 // console.log(name.length);  //length
 // console.log(name.toUpperCase());  // toUpperCase()

@@ -8,14 +8,12 @@ let arr1 = [1,2,3,4,5]
 
 const  greeting = "Hello World!"
 
-// for (const str of greeting) {
-
-//     // if(str === " ")
-//     // {
-//     //     break;
-//     // }
-
-//     console.log(`Each char is ${str}`);
+//  for (const str of greeting) {
+//     if(str === " ")
+//     {
+//         continue;
+//     }
+//     console.log(`Each char is ${str} ${str.length}`);
 //    }
 
 
@@ -25,13 +23,12 @@ const map =  new Map();
 
 map.set("Gujarat","gj")
 map.set("UtterPradesh","up")
+console.log(map);
 
-// console.log(map);
-
-/*for(const [key,value] of map)
+for(const [key,value] of map)
 {
     console.log(`${key} ===>  ${value}`);
-} */
+} 
 
 const myobj = { "game1" : "freefire" , "game2":"pubg"}
 
@@ -39,3 +36,14 @@ const myobj = { "game1" : "freefire" , "game2":"pubg"}
 // {
 //    console.log(`${key} ===>  ${value}`); // for of loop can't itrate objects.
 // }
+
+
+
+// 2024 prectice 
+
+/*const name = "ashish"
+let data ;
+for(data of name)
+{
+    console.log(data);
+}*/

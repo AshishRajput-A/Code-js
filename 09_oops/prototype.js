@@ -32,9 +32,9 @@ Object.prototype.hitesh = () =>{
 
    }
 
-// heros.hitesh()
-// myheros.hitesh()
-// myheros.heyAshish()
+heros.hitesh()
+myheros.hitesh()
+myheros.heyAshish()
 
 // try {
 //     heros.heyAshish()
