@@ -1,7 +1,7 @@
-
+// lesson - 9
 const discripter = Object.getOwnPropertyDescriptor(Math ,  "PI");
 
-// console.log(discripter);
+console.log(discripter);
 
 
 // console.log(Math.PI);
@@ -12,13 +12,13 @@ const discripter = Object.getOwnPropertyDescriptor(Math ,  "PI");
 const chai = {
     name : "ginger chai",
     price : 250,
-    isAvalible: true,
+    isAvailable: true,
     order : function() {
         console.log('chai nhi bani');
     }
 }
 
-console.log(Object.getOwnPropertyDescriptor(chai , "name"));
+// console.log(Object.getOwnPropertyDescriptor(chai , "name"));
 
 Object.defineProperty(chai,'name' , {
     // writable: false,
@@ -33,8 +33,6 @@ for (const [key , value] of Object.entries(chai)) {
 
     if(typeof value !== 'function')
     {
-        console.log(`${key} : ${value}`);
+        // console.log(`${key} : ${value}`);
     }
-    
-   
 }

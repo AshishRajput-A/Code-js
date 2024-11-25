@@ -1,4 +1,4 @@
-
+// lesson-6
  class user 
  {
     constructor(username)

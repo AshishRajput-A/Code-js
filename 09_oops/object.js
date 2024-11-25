@@ -1,3 +1,5 @@
+// lesson-2
+
 /*function multiplyBy5(num) {
     return num * 5;
 }

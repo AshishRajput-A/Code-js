@@ -1,3 +1,5 @@
+// lesson = 3
+
 // let name = "ashish    "
 // find ture length of any string
 let name = "  ashish                 "
